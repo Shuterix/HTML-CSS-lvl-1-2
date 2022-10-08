@@ -207,6 +207,74 @@ body {
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 
+.why {
+    padding: 48px 0px;
+}
+
+.padding-tb {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem  ;
+}
+
+.why-openlab {
+    font-weight: 300 !important;
+    margin-bottom: 3rem;
+    margin-top: 0px !important;
+    font-size: 40px;
+
+}
+
+.OpenLab {
+    font-weight: 700 !important;
+}
+
+.why-text {
+    color: #566b8d;
+    margin: 0px 48px 16px;
+    font-size: 16px;
+}
+
+.why-OpenLab-text {
+    padding: 0px 12px;
+    text-align: center;
+}
+
+.podnadpis-small_img-podnadpis_text-podnadpis_cely-podnadpis_cely_small_img-podnadpis_cely_small_img_padding_48-12 {
+    padding: 48px 12px 0px;
+    width: 25%;
+}
+
+.podnadpis {
+    margin: 0px 0px 8px;
+    font-size: 20px;
+    color: #212529;
+}
+
+.podnadpis_text {
+    font-size: 14px;
+    color: #566B8D;
+    margin: 0px !important;
+}
+
+.podnadpis_cely {
+    padding: 16px 0px;
+}
+
+.why-cele {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-O {
+    width: 241px;
+    right: 0;
+    bottom: -260px;
+    position: absolute;
+    vertical-align: middle;
+    overflow: hidden !important;
+}
+
 
 
 
