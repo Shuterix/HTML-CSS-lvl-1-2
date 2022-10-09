@@ -123,6 +123,7 @@ body {
     text-decoration: none;
     color: #1a232f;
     padding: 8px;
+    font-weight: 500;
 }
 
 .navmenu {
@@ -156,6 +157,7 @@ body {
     color: #fff;
     font-weight: 400;
     border: 1px solid transparent;
+    margin-left: 250px;
 }
 
 .main-page {
@@ -273,6 +275,201 @@ body {
     position: absolute;
     vertical-align: middle;
     overflow: hidden !important;
+}
+
+.vision_openlab {
+    font-size: 40px;
+    margin-bottom: 48px;
+    margin-top: 0px !important;
+    font-weight: 300 !important;
+}
+
+.in_openlab {
+    font-weight: 700;
+}
+
+.text_pod_vision_1 {
+    font-size: 16px;
+    color: #566b8d;
+    margin-bottom: 1.5rem;
+    margin-top: 0px !important;
+    line-height: var(--bs-body-line-height);
+}
+
+.text_pod_vision_2 {
+    font-size: 16px;
+    color: #566b8d;
+    margin-bottom: 16px;
+    margin-top: 0px !important;
+    line-height: var(--bs-body-line-height);
+}
+
+.vision {
+    padding: 48px 0px;
+}
+
+.container-vision {
+    color: #1a232f;
+    font-size: 13px;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.classes_number {
+    color: #5b94d7;
+    font-size: 90px;
+    line-height: 1 !important;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 0px !important;
+}
+
+.type_classes {
+    font-size: 18px;
+    color: #5b94d7;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.classes_count {
+    background-color: rgba(221, 236, 251, 0.4);
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    margin: 0.5rem!important;
+    align-items: flex-end!important;
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+}
+
+.schools_number {
+    color: #b95e73;
+    font-size: 90px;
+    line-height: 1 !important;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 0px !important;
+}
+
+.type_schools {
+    font-size: 18px;
+    color: #b95e73;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.schools_count {
+    background-color: rgba(238, 156, 156, 0.4);
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    margin: 0.5rem!important;
+    align-items: flex-end!important;
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+}
+
+.students_number {
+    color: #5cc19a;
+    font-size: 90px;
+    line-height: 1 !important;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 0px !important;
+}
+
+.type_students {
+    font-size: 18px;
+    color: #5cc;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.students_count {
+    background-color: rgba(156, 238, 204, 0.4);
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    margin: 0.5rem!important;
+    align-items: flex-end!important;
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+}
+
+.labmasters_number {
+    color: #dbca68;
+    font-size: 90px;
+    line-height: 1 !important;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 0px !important;
+}
+
+.type_labmasters {
+    font-size: 18px;
+    color: #dbca68;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.labmasters_count {
+    background-color: rgba(238, 226, 156, 0.4); 
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    margin: 0.5rem!important;
+    align-items: flex-end!important;
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+}
+
+.all_counts {
+    justify-content: flex-end !important;
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    flex-wrap: wrap !important;
+    display: flex;
+    width: 50%;
+    margin-right: 0px !important;
+}
+
+.vision-counts {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
