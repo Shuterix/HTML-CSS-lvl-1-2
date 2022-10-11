@@ -273,10 +273,6 @@ body {
     font-weight: 300 !important;
 }
 
-.in_openlab {
-    font-weight: 700;
-}
-
 .text_under_vision_1 {
     font-size: 16px;
     color: #566b8d;
@@ -296,25 +292,14 @@ body {
     padding: 48px 0px;
 }
 
-.classes_number {
-    color: #5b94d7;
-    font-size: 90px;
-    line-height: 1 !important;
-    font-weight: 700;
-    margin-bottom: 4px;
-    margin-top: 0px !important;
-}
-
-.type_classes {
+.type {
     font-size: 18px;
-    color: #5b94d7;
     font-weight: 700;
     margin-bottom: 0px !important;
     margin-top: 0px !important;
 }
 
-.classes_count {
-    background-color: rgba(221, 236, 251, 0.4);
+.count {
     padding-top: 1rem!important;
     padding-bottom: 1rem!important;
     padding-right: 1.5rem!important;
@@ -329,112 +314,18 @@ body {
     border-radius: 4px;
 }
 
-.schools_number {
-    color: #b95e73;
-    font-size: 90px;
-    line-height: 1 !important;
-    font-weight: 700;
-    margin-bottom: 4px;
-    margin-top: 0px !important;
-}
-
-.type_schools {
-    font-size: 18px;
-    color: #b95e73;
-    font-weight: 700;
-    margin-bottom: 0px !important;
-    margin-top: 0px !important;
-}
-
-.schools_count {
-    background-color: rgba(238, 156, 156, 0.4);
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
-    padding-right: 1.5rem!important;
-    padding-left: 1.5rem!important;
-    display: flex;
-    flex-direction: column !important;
-    justify-content: flex-end !important;
-    margin: 0.5rem!important;
-    align-items: flex-end!important;
-    width: 233px;
-    height: 183px;
-    border-radius: 4px;
-}
-
-.students_number {
-    color: #5cc19a;
-    font-size: 90px;
-    line-height: 1 !important;
-    font-weight: 700;
-    margin-bottom: 4px;
-    margin-top: 0px !important;
-}
-
-.type_students {
-    font-size: 18px;
-    color: #5cc;
-    font-weight: 700;
-    margin-bottom: 0px !important;
-    margin-top: 0px !important;
-}
-
-.students_count {
-    background-color: rgba(156, 238, 204, 0.4);
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
-    padding-right: 1.5rem!important;
-    padding-left: 1.5rem!important;
-    display: flex;
-    flex-direction: column !important;
-    justify-content: flex-end !important;
-    margin: 0.5rem!important;
-    align-items: flex-end!important;
-    width: 233px;
-    height: 183px;
-    border-radius: 4px;
-}
-
-.labmasters_number {
-    color: #dbca68;
-    font-size: 90px;
-    line-height: 1 !important;
-    font-weight: 700;
-    margin-bottom: 4px;
-    margin-top: 0px !important;
-}
-
-.type_labmasters {
-    font-size: 18px;
-    color: #dbca68;
-    font-weight: 700;
-    margin-bottom: 0px !important;
-    margin-top: 0px !important;
-}
-
-.labmasters_count {
-    background-color: rgba(238, 226, 156, 0.4); 
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
-    padding-right: 1.5rem!important;
-    padding-left: 1.5rem!important;
-    display: flex;
-    flex-direction: column !important;
-    justify-content: flex-end !important;
-    margin: 0.5rem!important;
-    align-items: flex-end!important;
-    width: 233px;
-    height: 183px;
-    border-radius: 4px;
-}
-
-.all_counts {
+.counts {
     justify-content: flex-end !important;
     padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
     flex-wrap: wrap !important;
     display: flex;
     width: 50%;
+}
+
+.number {
+    font-size: 90px !important;
+    margin-bottom: 4px !important;
 }
 
 .mb-1-5rem {
@@ -469,6 +360,49 @@ body {
     padding: 0px 12px;
 }
 
+.color-green {
+    color: #5cc19a !important;
+}
+
+.bg-red {
+    background-color: rgba(238, 156, 156, 0.4) !important;
+}
+
+.color-yellow {
+    color: #dbca68 !important;
+}
+
+.bg-green {
+    background-color: rgba(156, 238, 204, 0.4) !important;
+}
+
+.color-blue {
+    color: #5b94d7 !important;
+}
+
+.bg-blue {
+    background-color: rgba(221, 236, 251, 0.4) !important;
+}
+
+.bg-yellow {
+    background-color: rgba(238, 226, 156, 0.4) !important;
+}
+
+.color-red {
+    color: #b95e73 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-300 {
+    font-weight: 300 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
 
 
 
