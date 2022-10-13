@@ -27,6 +27,10 @@ header .border-bottom {
     padding-bottom: 3rem;
 }
 
+.p-rl-3rem {
+    padding: 0px 3rem;
+}
+
 .container {
     color: #1a232f;
     font-size: 13px;
@@ -332,8 +336,20 @@ body {
     margin-bottom: 1.5rem !important;
 }
 
+.mb-1rem {
+    margin-bottom: 1rem !important;
+}
+
 .mb-16px {
     margin-bottom: 16px !important;
+}
+
+.mb-3rem {
+    margin-bottom: 3rem !important;
+}
+
+.mt-3rem {
+    margin-top: 3rem !important;
 }
 
 .mr-3rem {
@@ -358,6 +374,14 @@ body {
 
 .p-rl-12px {
     padding: 0px 12px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-decoration-none {
+    text-decoration: none;
 }
 
 .color-green {
@@ -406,6 +430,59 @@ body {
 
 .fs-2-5rem {
     font-size: 2.5rem !important;
+}
+
+.fs-1-5rem {
+    font-size: 1.5rem !important;
+}
+
+.card-link {
+    height: 100%;
+    width: 100%;
+    position: absolute !important;
+    text-decoration: none;
+}
+
+.width-45 {
+    width: 45%;
+}
+
+.text-align {
+    text-align: center !important;
+}
+
+.laby {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.lab-text {
+    width: 41%;
+}
+
+.fs-37px {
+    font-size: 37px;
+}
+
+.card {
+    text-decoration: none;
+    width: 30% ;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.fs-1-25rem {
+    font-size: 1.25rem;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
 }
 
 
