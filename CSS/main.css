@@ -277,8 +277,8 @@ body {
 .vision_openlab {
     font-size: 40px;
     margin-bottom: 48px;
-    margin-top: 0px !important;
-    font-weight: 300 !important;
+    margin-top: 0px;
+    font-weight: 300;
 }
 
 .text_under_vision_1 {
@@ -292,7 +292,7 @@ body {
     font-size: 16px;
     color: #566b8d;
     margin-bottom: 16px;
-    margin-top: 0px !important;
+    margin-top: 0px;
     line-height: var(--bs-body-line-height);
 }
 
@@ -303,57 +303,57 @@ body {
 .type {
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 0px !important;
-    margin-top: 0px !important;
+    margin-bottom: 0px;
+    margin-top: 0px ;
 }
 
 .count {
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
-    padding-right: 1.5rem!important;
-    padding-left: 1.5rem!important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
     display: flex;
-    flex-direction: column !important;
-    justify-content: flex-end !important;
-    margin: 0.5rem!important;
-    align-items: flex-end!important;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0.5rem;
+    align-items: flex-end;
     width: 233px;
     height: 183px;
     border-radius: 4px;
 }
 
 .counts {
-    justify-content: flex-end !important;
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
-    flex-wrap: wrap !important;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    flex-wrap: wrap;
     display: flex;
     width: 50%;
 }
 
 .number {
-    font-size: 90px !important;
-    margin-bottom: 4px !important;
+    font-size: 90px;
+    margin-bottom: 4px;
 }
 
 .mb-1-5rem {
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 1.5rem;
 }
 
 .mb-1rem {
-    margin-bottom: 1rem !important;
+    margin-bottom: 1rem;
 }
 
 .mb-16px {
-    margin-bottom: 16px !important;
+    margin-bottom: 16px;
 }
 
 .mb-3rem {
-    margin-bottom: 3rem !important;
+    margin-bottom: 3rem;
 }
 
 .mt-3rem {
-    margin-top: 3rem !important;
+    margin-top: 3rem;
 }
 
 .mr-3rem {
@@ -369,11 +369,11 @@ body {
 }
 
 .mt-0px {
-    margin-top: 0px !important;
+    margin-top: 0px ;
 }
 
 .mb-0px {
-    margin-bottom: 0px !important;
+    margin-bottom: 0px;
 }
 
 .p-rl-12px {
@@ -389,61 +389,61 @@ body {
 }
 
 .color-green {
-    color: #5cc19a !important;
+    color: #5cc19a;
 }
 
 .bg-red {
-    background-color: rgba(238, 156, 156, 0.4) !important;
+    background-color: rgba(238, 156, 156, 0.4);
 }
 
 .color-yellow {
-    color: #dbca68 !important;
+    color: #dbca68;
 }
 
 .bg-green {
-    background-color: rgba(156, 238, 204, 0.4) !important;
+    background-color: rgba(156, 238, 204, 0.4);
 }
 
 .color-blue {
-    color: #5b94d7 !important;
+    color: #5b94d7;
 }
 
 .bg-blue {
-    background-color: rgba(221, 236, 251, 0.4) !important;
+    background-color: rgba(221, 236, 251, 0.4);
 }
 
 .bg-yellow {
-    background-color: rgba(238, 226, 156, 0.4) !important;
+    background-color: rgba(238, 226, 156, 0.4);
 }
 
 .color-red {
-    color: #b95e73 !important;
+    color: #b95e73;
 }
 
 .fw-700 {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 
 .fw-300 {
-    font-weight: 300 !important;
+    font-weight: 300;
 }
 
 .fw-500 {
-    font-weight: 500 !important;
+    font-weight: 500;
 }
 
 .fs-2-5rem {
-    font-size: 2.5rem !important;
+    font-size: 2.5rem;
 }
 
 .fs-1-5rem {
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
 }
 
 .card-link {
     height: 100%;
     width: 100%;
-    position: absolute !important;
+    position: absolute;
     text-decoration: none;
 }
 
@@ -452,7 +452,7 @@ body {
 }
 
 .text-align {
-    text-align: center !important;
+    text-align: center;
 }
 
 .laby {
@@ -478,7 +478,7 @@ body {
 }
 
 .position-relative {
-    position: relative !important;
+    position: relative;
 }
 
 .fs-1-25rem {
