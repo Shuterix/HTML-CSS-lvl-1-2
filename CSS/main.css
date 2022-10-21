@@ -19,6 +19,10 @@ header .border-bottom {
     flex-direction: row;
 }
 
+.width-60 {
+    width: 60%;
+}
+
 .border-bottom {
     border-bottom: 1px solid #dee2e6!important;
 }
@@ -491,6 +495,10 @@ body {
 
 .button-modern {
     width: 10%;
+}
+
+.align-items-flex-end {
+    align-items: flex-end;
 }
 
 
