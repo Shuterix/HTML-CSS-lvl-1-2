@@ -10,11 +10,11 @@
 }
 
 .height-50px {
-    height: 50px !important;
+    height: 50px;
 }
 
 header .border-bottom {
-    border-color: #d7eaff !important;
+    border-color: #d7eaff;
 }
 
 .flex-row {
@@ -26,7 +26,7 @@ header .border-bottom {
 }
 
 .border-bottom {
-    border-bottom: 1px solid #dee2e6!important;
+    border-bottom: 1px solid #dee2e6;
 }
 
 .pt-3rem {
@@ -42,36 +42,36 @@ header .border-bottom {
 }
 
 .align-items-center {
-    align-items: center!important;
+    align-items: center;
 }
 
 .justify-content-center {
-    justify-content: center!important;
+    justify-content: center;
 }
 
 .d-flex {
-    display: flex!important;
+    display: flex;
 }
 
 .d-lg-block {
-    display: block!important;
+    display: block;
 }
 
 .bg-white {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity))!important;
+    background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity));
 }
 
 .d-none {
-    display: none!important;
+    display: none;
 }
 
 .lh-1 {
-    line-height: 1!important;
+    line-height: 1;
 }
 
 .me-5 {
-    margin-right: 3rem!important;
+    margin-right: 3rem;
 }
 
 .mb-1-5rem {
@@ -243,8 +243,8 @@ header .border-bottom {
     width: 100%;
     padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: auto !important;
-    margin-left: auto !important;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     vertical-align: middle;
     align-items: center;
@@ -276,8 +276,8 @@ body {
     text-decoration: none;
     color: #989ca2;
     background-color: rgba(152, 156, 162, 0.15);
-    border-color: rgba(152, 156, 162, 0.15) !important;
-    border-radius: 50rem!important;
+    border-color: rgba(152, 156, 162, 0.15);
+    border-radius: 50rem;
     vertical-align: middle;
     border: 1px solid;
     text-align: center;
@@ -302,15 +302,15 @@ body {
 }
 
 .navmenu {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-    margin-right: auto !important;
-    margin-left: 3rem !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: 3rem;
     text-align: center;
 }
 
 .navmenu-btn {
-    display: flex !important;
+    display: flex;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
@@ -324,8 +324,8 @@ body {
 }
 
 .btn-primary {
-    background-color: #3597ff !important;
-    border-color: #3597ff !important;
+    background-color: #3597ff;
+    border-color: #3597ff;
     border-radius: 6px;
     font-size: 14px;
     padding: 12px 20px;
@@ -339,16 +339,16 @@ body {
 
 .main-page {
     margin-bottom: 3rem;
-    background-color: #3597ff !important;
-    position: relative !important;
+    background-color: #3597ff;
+    position: relative;
 }
 
 .full-text {
     color: white;
-    margin-top: 3rem!important;
-    margin-bottom: 3rem!important;
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     width: 42%;
 }
 
@@ -385,14 +385,14 @@ body {
 }
 
 .why-openlab {
-    font-weight: 300 !important;
+    font-weight: 300;
     margin-bottom: 3rem;
-    margin-top: 0px !important;
+    margin-top: 0px;
     font-size: 40px;
 }
 
 .openlab {
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 
 .why-text {
@@ -419,7 +419,7 @@ body {
 .subtitle_text {
     font-size: 14px;
     color: #566B8D;
-    margin: 0px !important;
+    margin: 0px;
 }
 
 .subtitle_all {
