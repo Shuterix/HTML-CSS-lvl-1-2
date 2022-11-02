@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets">
-    <link rel="stylesheet" href="css/better.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
     <header class=""bg-white d-none d-lg-block>
@@ -21,7 +22,7 @@
         </div>
     </header>
     <nav class="navbar-main">
-        <div class="container height-50px justify-content-center">
+        <div class="container d-flex align-items-center height-50px justify-content-center">
             <a class="navbar-brand" href="">
                 <img src="/assets/openlab-logo.svg" alt="logo" height="28" width="120">
             </a>
@@ -43,6 +44,9 @@
                     </li>
                     <li class="margin-16">
                         <a class="navlink" href="">Moderná škola</a>
+                    </li>
+                    <li class="margin-16">
+                        <a class="navlink" href="">Časté otázky</a>
                     </li>
                 </div>
                 <button class="btn-primary">
@@ -69,8 +73,8 @@
         </div>
     </section>
     <section class="why">
-        <div class="container">
-            <div class="why-all">
+        <div class="container pt-1-5rem pb-1-5rem">
+            <div class="justify-content-center">
                 <div class="why-openlab-text">
                     <h2 class="why-openlab">
                         Prečo 
@@ -83,44 +87,46 @@
                         osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.
                     </p>
                 </div>
-                <div class="why-all">
-                    <div class="subtitle_all_small_img">
-                        <img class="small_img" src="assets/select.svg">
-                        <div class="subtitle_all">
-                            <h5 class="subtitle">
-                                Celospoločenský rozvoj
-                            </h5>
-                            <p class="subtitle_text">
-                                Osnovy aj učebné materiály pre všetky tech 
-                                oblasti sú open source.
-                            </p>
+                <div class="flex-row d-flex justify-content-center">
+                    <div class="why-all">
+                        <div class="d-flex flex-column">
+                            <img width="45px" class="small_img" src="assets/select.svg">
+                            <div class="subtitle_all">
+                                <h5 class="subtitle">
+                                    Celospoločenský rozvoj
+                                </h5>
+                                <p class="subtitle_text">
+                                    Osnovy aj učebné materiály pre všetky tech 
+                                    oblasti sú open source.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="why-all">
-                    <div class="subtitle_all_small_img">
-                        <img class="small_img" src="assets/support.svg">
-                        <div class="subtitle_all">
-                            <h5 class="subtitle">
-                                Učenie praxou
-                            </h5>
-                            <p class="subtitle_text">
-                                Študentov vedieme k tímovému riešeniu problémov.
-                            </p>
+                    <div class="why-all">
+                        <div class="d-flex flex-column">
+                            <img width="45px" class="small_img" src="assets/support.svg">
+                            <div class="subtitle_all">
+                                <h5 class="subtitle">
+                                    Učenie praxou
+                                </h5>
+                                <p class="subtitle_text">
+                                    Študentov vedieme k tímovému riešeniu problémov.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="why-all">
-                    <div class="subtitle_all_small_img">
-                        <img class="small_img" src="assets/intership.svg">
-                        <div class="subtitle_all">
-                            <h5 class="subtitle">
-                                Rozvoj talentu
-                            </h5>
-                            <p class="subtitle_text">
-                                Vytvárame šikovné tímy 
-                                schopné riešiť veľké problémy.
-                            </p>
+                    <div class="why-all">
+                        <div class="d-flex flex-column">
+                            <img width="45px" class="small_img" src="assets/intership.svg">
+                            <div class="subtitle_all">
+                                <h5 class="subtitle">
+                                    Rozvoj talentu
+                                </h5>
+                                <p class="subtitle_text">
+                                    Vytvárame šikovné tímy 
+                                    schopné riešiť veľké problémy.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -128,9 +134,9 @@
         </div>
     </section>
     <section class="vision">
-        <div class="container pb-1-5rem pt-1-5rem d-flex">
-            <div class="align-items-center">
-                <div class="mb-0px p-rl-12px">
+        <div class="container pb-1-5rem pt-1-5rem ml-1-5rem">
+            <div class="align-items-center d-flex flex-row justify-content-center">
+                <div class="mb-0px p-rl-12px width-45">
                     <h2 class="vision_openlab">
                         Naša vízia
                         <span class="fw-700">
@@ -151,7 +157,7 @@
                 <div class="counts mt-0px justify-content-center d-flex">
                     <div class="count bg-blue">
                         <p class="number color-blue fw-700 lh-1">
-                            11
+                            6
                         </p>
                         <p class="type color-blue fw-700 lh-1">
                             tried
@@ -159,7 +165,7 @@
                     </div>
                     <div class="count bg-green">
                         <p class="number color-green fw-700 lh-1">
-                            222
+                            267
                         </p>
                         <p class="type color-green">
                             študentov
@@ -167,7 +173,7 @@
                     </div>
                     <div class="count bg-yellow">
                         <p class="number color-yellow fw-700 lh-1">
-                            14
+                            12
                         </p>
                         <p class="type color-yellow">
                             labmastrov
@@ -187,50 +193,50 @@
     </section>
     <section class="labs pt-3rem pb-3rem">
         <div class="container pt-1-5rem pb-1-5rem">
-            <div class="p-rl-12px d-flex">
-                <div class="card">
-                    <div class="pb-3rem pt-1-5rem p-rl-3rem">
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center justify-content-center">
                 <div class="mb-0px p-rl-12px">
-                    <h2 class="fw-300 mb-0px fs-2-5rem">
+                    <h2 class="fw-300 mb-0px fs-2-5rem mt-0px">
                         V akých laboch
                         <span class="fw-700">
                             môžeš študovať?
                         </span>
                     </h2>
                 </div>
-                <a class="laby" href="">
-                    HybridLab
+                <div class="labs p-rl-3rem pt-3rem pb-3rem text-decoration-none text-black" href="">
+                   <h5 class="fw-700 fs-1-25rem mt-0px mb-0px">
+                        Hybrid<span class="fw-300 fs-1-25rem">Lab</span>
+                   </h5>
                     <p class="lab-text">
                         Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.
                     </p>
                     <img src="assets/arrow-right.svg" class="position-absolute">
-                </a>
-                <a class="laby" href="">
-                    GamesLab
+                </div>
+                <div class="labs p-rl-3rem pt-3rem pb-3rem text-decoration-none text-black" href="">
+                    <h5 class="fw-700 fs-1-25rem mt-0px mb-0px">
+                         Games<span class="fw-300 fs-1-25rem">Lab</span>
+                    </h5>
                     <p class="lab-text">
                         Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel, 3D grafiku v programe Blender a herný dizajn.
                     </p>
                     <img src="assets/arrow-right.svg" class="position-absolute">
-                </a>
-                <a class="laby" href="">
-                    AppsLab
+                </div>
+                <div class="labs p-rl-3rem pt-3rem pb-3rem text-decoration-none text-black" href="">
+                    <h5 class="fw-700 fs-1-25rem mt-0px mb-0px">
+                         Apps<span class="fw-300 fs-1-25rem">Lab</span>
+                    </h5>
                     <p class="lab-text">
                         Študenti sa učia vyvíjať mobilné aplikácie v C#
                         a Xamarin.forms a webové aplikácie v Java a Angular JS.
                     </p>
                     <img src="assets/arrow-right.svg" class="position-absolute">
-                </a>
+                </div>
             </div>
         </div>
     </section>
     <section class="pt-3rem pb-3rem">
         <div class="container pt-1-5rem pb-1-5rem">
             <div class="d-flex justify-content-center">
-                <div class="fw-700">
+                <div class="fw-700 fs-1-5rem">
                     <h2>
                         Nachádzame sa
                         <span class="fw-300">
