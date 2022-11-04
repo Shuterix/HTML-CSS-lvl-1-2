@@ -25,6 +25,10 @@
     width: 60%;
 }
 
+.mr-0px {
+    margin-right: 0px !important;
+}
+
 .vertical-align-middle {
     vertical-align: middle;
 }
@@ -107,7 +111,7 @@
 }
 
 .pt-1-5rem {
-    padding-top: 1.5rem;
+    padding-top: 1.5rem !important;
 }
 
 .pb-1-5rem {
@@ -115,11 +119,15 @@
 }
 
 .mt-0px {
-    margin-top: 0px ;
+    margin-top: 0px !important;
 }
 
 .mb-0px {
     margin-bottom: 0px;
+}
+
+.ml-150px {
+    margin-left: 150px;
 }
 
 .p-rl-12px {
@@ -134,8 +142,16 @@
     text-decoration: none;
 }
 
+.fs-19px {
+    font-size: 19px;
+}
+
 .color-green {
     color: #5cc19a;
+}
+
+.text-gray {
+    color: gray;
 }
 
 .bg-red {

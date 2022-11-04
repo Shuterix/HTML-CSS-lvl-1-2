@@ -149,6 +149,7 @@ header .border-bottom {
 
 .why-all {
     padding: 48px 12px 0px;
+    width: 300px;
 }
 
 .subtitle {
@@ -161,7 +162,6 @@ header .border-bottom {
     font-size: 14px;
     color: #566B8D;
     margin: 0px;
-    width: 70%;
 }
 
 .subtitle_all {
@@ -238,5 +238,30 @@ header .border-bottom {
     margin-bottom: 10px;
     margin-top: 8px;
     margin-right: 0px !important;
+}
+
+/* which labs */
+
+.which-labs {
+    width: 350px;
+    margin-right: 8rem;
+    margin-left: 4rem;
+}
+
+/* schools */
+
+.schools {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    margin-right: 8px !important;
+    width: 70%;
+}
+
+.halova {
+    color: #3597ff;
+    text-decoration: none;
 }
 
