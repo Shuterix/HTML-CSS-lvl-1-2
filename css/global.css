@@ -21,6 +21,10 @@
     flex-direction: row;
 }
 
+.fs-16px {
+    font-size: 16px;
+}
+
 .width-60 {
     width: 60%;
 }
@@ -118,12 +122,16 @@
     padding-bottom: 1.5rem;
 }
 
+.mt-1rem {
+    margin-top: 1rem;
+}
+
 .mt-0px {
     margin-top: 0px !important;
 }
 
 .mb-0px {
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
 }
 
 .ml-150px {
@@ -244,11 +252,24 @@
 }
 
 .fs-1-25rem {
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
 }
 
 .flex-wrap-wrap {
     flex-wrap: wrap;
+}
+
+.m-rl-24px {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.width-75 {
+    width: 75%;
+}
+
+.width-200 {
+    width: 200px;
 }
 
 .button-modern {
@@ -262,8 +283,6 @@
 /* container */
 
 .container {
-    color: #1a232f;
-    font-size: 13px;
     width: 100%;
     padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
