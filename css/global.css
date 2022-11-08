@@ -17,8 +17,28 @@
     margin-left: 1.5rem !important;
 }
 
+.text-primary {
+    color: #3597ff !important;
+}
+
 .flex-row {
     flex-direction: row;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.text-white {
+    color: white;
+}
+
+.color-primary {
+    background-color: #3597ff;
+}
+
+.width-40 {
+    width: 40%;
 }
 
 .fs-16px {
@@ -29,8 +49,24 @@
     width: 60%;
 }
 
+.mr-8px {
+    margin-right: 8px;
+}
+
+.fs-32px {
+    font-size: 32px;
+}
+
+.width-327px {
+    width: 327px;
+}
+
 .mr-0px {
     margin-right: 0px !important;
+}
+
+.mr-150px {
+    margin-right: 150px;
 }
 
 .vertical-align-middle {
@@ -53,12 +89,16 @@
     padding-bottom: 3rem;
 }
 
+.width-30 {
+    width: 30%;
+}
+
 .p-rl-3rem {
     padding: 0px 3rem;
 }
 
 .align-items-center {
-    align-items: center;
+    align-items: center !important  ;
 }
 
 .justify-content-center {

@@ -62,7 +62,7 @@ header .border-bottom {
     display: inline-block;
 }
 
-.btn-primary {
+.btn-primary1 {
     background-color: #3597ff;
     border-color: #3597ff;
     border-radius: 6px;
@@ -265,4 +265,16 @@ header .border-bottom {
     text-decoration: none;
 }
 
-/* special */
+/* modern school */
+
+.btn-primary2 {
+    background-color: #3597ff;
+    border-color: #3597ff;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 18px 50px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid transparent;
+    width: 208px;
+}
