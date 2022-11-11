@@ -25,6 +25,18 @@
     flex-direction: row;
 }
 
+.mt-4px {
+    margin-top: 4px;
+}
+
+.ml-120px {
+    margin-left: 120px;
+}
+
+.m-rl-8px {
+    margin: 0px 8px;
+}
+
 .justify-content-space-around {
     justify-content: space-around;
 }
@@ -278,6 +290,10 @@
     font-size: 37px;
 }
 
+.fs-13px {
+    font-size: 13px;
+}
+
 .card {
     text-decoration: none;
     width: 30% ;
@@ -326,8 +342,8 @@
     width: 100%;
     padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
 }
 
 /* body */
