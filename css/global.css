@@ -33,6 +33,18 @@
     margin-left: 120px;
 }
 
+.mr-120px {
+    margin-right: 120px;
+}
+
+.mr-300px {
+    margin-right: 300px;
+}
+
+.ml-180px {
+    margin-left: 180px;
+}
+
 .m-rl-8px {
     margin: 0px 8px;
 }
@@ -55,6 +67,10 @@
 
 .fs-16px {
     font-size: 16px;
+}
+
+.fw-500 {
+    font-weight: 500;
 }
 
 .width-60 {
@@ -164,6 +180,10 @@
 
 .mr-3rem {
     margin-right: 3rem;
+}
+
+.mt-6px {
+    margin-top: 6px;
 }
 
 .pt-1-5rem {

@@ -4,43 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register form</title>
+    <title>Register or sign up form</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-    <section id="Register">
-        <div class="container text-align pt-1-5rem">
-            <h1 class="fs-2-5rem mt-0px mb-0px">Registruj sa</h1>
-        </div>
-    </section>
-    <section id="register-inputs">
-        <div class="mr-150px ml-150px">
-            <div class="d-flex flex-column">
-                <div class="d-flex flex-row">
-                    <input type="text" placeholder="Meno">
-                    <input type="text" placeholder="Stredné meno">
-                    <input type="text" placeholder="Priezvisko">
-                </div>
-                <div class="d-flex flex-row">
-                    <input type="text" placeholder="E-mail">
-                </div>
-                <div class="d-flex flex-row">
-                    <input type="password" placeholder="Heslo">
-                    <input type="password" placeholder="Zopakuj heslo">
-                </div>
-                <div class="d-flex flex-row">
-                    <select name="Pohlavie">
-                        <option>
-                            Muž
-                        </option>
-                        <option>
-                            Žena
-                        </option>
-                    </select>
-                </div>
+    <div class="wrapper position-relative">
+        <h2 class="position-relative">Register</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Celé meno" required>
             </div>
-        </div>
-    </section>
+            <div class="input-box">
+                <input type="email" placeholder="E-mail" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Vytvor si heslo" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Zopakuj heslo" required>
+            </div>
+            <div class="privacy-policy">
+                <input type="checkbox" placeholder="E-mail" required>
+                <h3 class="fw-500 text-gray">Suhlasím so spracovaním osobných údajov</h3>
+            </div>
+            <div class="input-box submit-button">
+                <input type="submit">
+            </div>
+            <div class="text">
+                <h3 class="text-black fw-500">
+                    Už mám vytvorený účet
+                    <a class="text-decoration-none color-blue" href="#">
+                        Prihlásiť sa
+                    </a>
+                </h3>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
